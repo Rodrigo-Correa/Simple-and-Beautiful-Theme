@@ -152,31 +152,35 @@ h6 {
 }
 
 h1 {
-	font-size: 3.6rem;
+	font-size: 3em!important;
 	line-height: 1.138888889;
 }
 
+header h1 {
+    letter-spacing: 0px;
+}
+
 h2 {
-    font-size: 36px;
+    font-size: 2em;
     line-height: 46px;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.5em;
 }
 
 h4 {
-	font-size: 22px;
+	font-size: 1.3em;
 	line-height: 26px;
 	text-transform: none;
 }
 
 h5 {
-	font-size: 2.1rem;
+	font-size: 1em;
 }
 
 h6 {
-	font-size: 1.6rem;
+	font-size: 0.9em;
 	letter-spacing: 0.03125em;
 }
 
@@ -313,6 +317,15 @@ a:hover {
 	letter-spacing: 0;
 }
 
+.sidebar-widget h2 {
+	padding: 0px;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 1.3em;
+    line-height: initial;
+    padding-bottom: 10px;
+}
+	
 /* Article loop */
 
 .article-loop {

@@ -10,7 +10,7 @@
 
 					<article class="article-loop">
 
-						<div class="post-container">			
+						<div class="post-container">		
 
 							<!-- Displays the featured image -->
 							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?></a>
