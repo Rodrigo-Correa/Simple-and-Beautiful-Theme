@@ -1,5 +1,7 @@
 # WordPress Custom Theme
 
+**View Live Demo:** <a href="http://simpleandbeautifultheme.rodrigocorrea.me/">Simple and Beautiful Theme</a>
+
 **Related URL(s):**
 
 Download - WordPress.org<br>
