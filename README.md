@@ -1,5 +1,7 @@
 # WordPress Custom Theme
 
+**Tutorial:** <a href="https://rodrigocorrea.me/how-to-create-a-simple-and-beautiful-wordpress-theme-from-scratch/">Simple and Beautiful Theme</a>
+
 **View Live Demo:** <a href="http://simpleandbeautifultheme.rodrigocorrea.me/">Simple and Beautiful Theme</a>
 
 **Related URL(s):**
