@@ -31,7 +31,7 @@
 		</footer>
 		
 		<!-- Scroll To Top Button -->
-		<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
 		<!-- JavaScript - Scroll To Top Button -->
 		<script>
