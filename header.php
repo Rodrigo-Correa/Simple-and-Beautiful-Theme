@@ -51,23 +51,42 @@
 
 		</header>
 
-		<nav class="topnav">
+		<nav class="topnav" id="myTopnav">
 
 			<ul>
 
+				<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+				
 				<!-- Displays the Header Menu -->
 				<?php wp_nav_menu( array( 
 
 				'container'  => '',
 				'items_wrap' => '%3$s',
 				'header-menu' => 'header-menu' ) ); ?>
-
+				
 			</ul>
 
-			<div class="search-container">
+						<div class="search-container">
 			
 				<?php get_search_form(); ?>
 
 			</div>
-
+			
 		</nav><!-- .primary-menu-wrapper -->
+
+		<div class="mobile-search-container">
+
+			<?php get_search_form(); ?>
+
+		</div>
+
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
